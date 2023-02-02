@@ -1,0 +1,48 @@
+
+.containerBarra{
+    width: 15%;
+    margin-left: 5vw;
+}
+.inicio{
+    display: flex;
+    float: left;
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 30px;
+}
+.logotipo{
+    width: 20vw;
+    height: 20vh;
+    background-image: url('../../../assets/logo.png');
+    background-position: center;
+    background-size: contain;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+.box:first-child{
+    margin-top: 30px;
+}
+.box{
+    margin-top: 10px;
+    background-color: #2EAFB2;
+    color: #fff;
+    border-radius: 10px;
+    height: 60px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 20px;
+    width: 20vw;
+    cursor: pointer;
+    transition: 0.3s all;
+    opacity: 1;
+}
+.box:hover{
+    opacity: 0.6;
+
+}
+.linkHome{
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
